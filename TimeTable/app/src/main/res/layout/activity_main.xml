@@ -467,28 +467,6 @@
      app:layout_constraintTop_toBottomOf="@id/friday04"
      app:layout_constraintLeft_toRightOf="@id/thursday05"/>
 
- <TextView
-     android:id="@+id/friday06"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:text=""
-     android:textSize="15sp"
-     android:textColor="@color/black"
-     android:layout_marginLeft="30dp"
-     android:layout_marginTop="10dp"
-     app:layout_constraintTop_toBottomOf="@id/friday05"
-     app:layout_constraintLeft_toRightOf="@id/thursday06"/>
 
- <TextView
-     android:id="@+id/friday07"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:text=""
-     android:textSize="15sp"
-     android:textColor="@color/black"
-     android:layout_marginLeft="30dp"
-     android:layout_marginTop="10dp"
-     app:layout_constraintTop_toBottomOf="@id/friday06"
-     app:layout_constraintLeft_toRightOf="@id/thursday07"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
