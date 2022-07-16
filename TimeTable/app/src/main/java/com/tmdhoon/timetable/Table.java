@@ -1,40 +1,68 @@
 package com.tmdhoon.timetable;
 
 public class Table {
-    private String monday01;
-    private String monday02;
-    private String monday03;
 
-    public Table(){
+    private String one;
+    private String two;
+    private String three;
+    private String four;
+    private String five;
+    private String six;
+    private String seven;
+
+    public String getOne() {
+        return one;
     }
 
-    public String getMonday01() {
-        return monday01;
+    public void setOne(String one) {
+        this.one = one;
     }
 
-    public void setMonday01(String monday01) {
-        this.monday01 = monday01;
+    public String getTwo() {
+        return two;
     }
 
-    public String getMonday02() {
-        return monday02;
+    public void setTwo(String two) {
+        this.two = two;
     }
 
-    public void setMonday02(String monday02) {
-        this.monday02 = monday02;
+    public String getThree() {
+        return three;
     }
 
-    public String getMonday03() {
-        return monday03;
+    public void setThree(String three) {
+        this.three = three;
     }
 
-    public void setMonday03(String monday03) {
-        this.monday03 = monday03;
+    public String getFour() {
+        return four;
     }
 
-    public Table(String monday01, String monday02, String monday03) {
-        this.monday01 = monday01;
-        this.monday02 = monday02;
-        this.monday03 = monday03;
+    public void setFour(String four) {
+        this.four = four;
+    }
+
+    public String getFive() {
+        return five;
+    }
+
+    public void setFive(String five) {
+        this.five = five;
+    }
+
+    public String getSix() {
+        return six;
+    }
+
+    public void setSix(String six) {
+        this.six = six;
+    }
+
+    public String getSeven() {
+        return seven;
+    }
+
+    public void setSeven(String seven) {
+        this.seven = seven;
     }
 }
